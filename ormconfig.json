@@ -1,12 +1,12 @@
 {
   "username": "postgres",
-  "password": "docker",
+  "password": "postgres",
 
   "type": "postgres",
   "name": "default",
   "host": "localhost",
   "port": 5432,
-  "database": "queries_challenge",
+  "database": "db_queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
